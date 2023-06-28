@@ -24,8 +24,6 @@ public class User implements UserDetails {
     private String phoneNumber;
     @Column(name = "name")
     private String name;
-    @Column(name = "active")
-    private boolean active;
 
     @Column(name = "password", length = 1000)
     private String password;
@@ -76,6 +74,6 @@ public class User implements UserDetails {
 
     @Override
     public boolean isEnabled() {
-        return active;
+        return true;
     }
 }

@@ -18,12 +18,4 @@ public class AdminController {
         model.addAttribute("users", userService.list());
         return "admin";
     }
-
-    /*@GetMapping("/admin/user/edit/{user}")
-    public String userEdit(@PathVariable("user") User user, Model model) {
-        model.addAttribute("users", user);
-        model.addAttribute("roles", Role.values());
-        return "user-edit";
-    }*/
-
 }
