@@ -2,10 +2,10 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>BUYSELL</title>
+    <title>Mikhalich Shop</title>
 </head>
 <body>
-<h1>BUYSELL</h1><hr>
+<h1>Mikhalich Shop</h1><hr>
 <h4>Авторизация</h4>
 <form action="/login" method="post">
     Эл. почта: <input type="email" name="username"><br><br>
