@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Mikhalich shop</title>
+    <title>Registration</title>
 </head>
 <style>
 body {
@@ -39,7 +39,7 @@ body {
             }
 </style>
 <body>
-<h1>Mikhalich shop</h1><hr>
+<h1>Ivan Shop</h1><hr>
 <h4>Регистрация</h4>
 <hr>
 <form action="/registration" method="post">
@@ -49,6 +49,9 @@ body {
     Пароль: <input type="password" name="password"><br><br>
     <input type="hidden" name="_csrf" value="${_csrf.token}">
     <input type="submit" class = 'lf--sub' value="Вход"/>
+    <#if errorMessage??>
+        <h3 style="color: red" align= "center">${errorMessage}</h3>
+    </#if>
 </form>
 </body>
 </html>

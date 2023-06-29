@@ -2,7 +2,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Mikhalich</title>
+    <title>Login</title>
 </head>
 <style>
 body {
@@ -44,7 +44,7 @@ body {
         }
 </style>
 <body>
-<h1>Mikhalich</h1><hr>
+<h1>Ivan Shop</h1><hr>
 <h4>Авторизация</h4>
 <form action="/login" method="post">
     Эл. почта: <input type="email" name="username"><br><br>

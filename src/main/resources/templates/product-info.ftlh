@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Mikhalich Shop</title>
+    <title>Information</title>
 </head>
 <style>
 body {
@@ -28,7 +28,7 @@ body {
     }
 </style>
 <body>
-<h1>Mikhalich Shop</h1><hr>
+<h1>Ivan Shop</h1><hr>
 <h4>Подробная информация о товаре</h4>
 <table>
     <tr>

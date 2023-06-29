@@ -13,7 +13,6 @@ import java.security.Principal;
 import java.util.List;
 
 @Service
-@Slf4j
 @RequiredArgsConstructor
 public class ProductService {
     private final ProductRepository productRepository;
@@ -26,7 +25,6 @@ public class ProductService {
 
     public void saveProduct(Principal principal, Product product) throws IOException {
         product.setUser(getUserByPrincipal(principal));
-        log.info("Saving new Product. Title: {}; Author email: {}", product.getTitle(), product.getUser().getEmail());
         productRepository.save(product);
     }
 

@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Mikhalich Shop</title>
+    <title>Main</title>
 </head>
 <style>
     body {
@@ -32,7 +32,7 @@
     }
 </style>
 <body>
-<h1 align = "center">Mikhalich Shop</h1>
+<h1 align = "center">Ivan Shop</h1>
 <#if user.email??>
     <h3> Имя пользователя: <i>${user.name}</i></h3>
     <form action="/logout" method="post">
