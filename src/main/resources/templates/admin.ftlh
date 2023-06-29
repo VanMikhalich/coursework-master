@@ -33,11 +33,11 @@ body {
 <h3>Просмотр пользователей</h3>
 <table>
     <tr>
-        <th scope = "col">ID</th>
-        <th scope = "col">Email</th>
-        <th scope = "col">Номер телефона</th>
-        <th scope = "col">Имя</th>
-        <th scope = "col">Роль</th>
+        <th scope="col">ID</th>
+        <th scope="col">Email</th>
+        <th scope="col">Номер телефона</th>
+        <th scope="col">Имя</th>
+        <th scope="col">Роль</th>
     </tr>
     <#list users as user>
         <tr>

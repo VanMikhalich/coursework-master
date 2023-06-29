@@ -32,11 +32,11 @@ body {
 <h4>Подробная информация о товаре</h4>
 <table>
     <tr>
-        <th scope = "col">Название товара</th>
-        <th scope = "col">Описание товара</th>
-        <th scope = "col">Цена</th>
-        <th scope = "col">Город</th>
-        <th scope = "col">Автор</th>
+        <th scope="col">Название товара</th>
+        <th scope="col">Описание товара</th>
+        <th scope="col">Цена</th>
+        <th scope="col">Город</th>
+        <th scope="col">Автор</th>
     </tr>
         <tr>
             <th>${product.title}</th>

@@ -5,7 +5,6 @@ import com.example.coursework.entities.User;
 import com.example.coursework.repository.ProductRepository;
 import com.example.coursework.repository.UserRepository;
 import lombok.RequiredArgsConstructor;
-import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Service;
 
 import java.io.IOException;
@@ -19,7 +18,8 @@ public class ProductService {
     private final UserRepository userRepository;
 
     public List<Product> listProducts(String title) {
-        if (title != null) return productRepository.findByTitle(title);
+        if (title != null)
+            return productRepository.findByTitle(title);
         return productRepository.findAll();
     }
 
